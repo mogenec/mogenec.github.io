@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mo Christensen | Website Accessibility Fixes | Syracuse, Utah</title>
+<meta name="description" content="Mo Christensen checks small-business websites in Syracuse, Davis County and across Utah for accessibility problems that cost customers, and gives you the exact fixes in plain English. Free homepage check.">
+<meta property="og:title" content="Mo Christensen | Website Accessibility Fixes">
+<meta property="og:description" content="Free homepage accessibility check with exact, plain-English fixes. Syracuse, Utah.">
+<style>body{margin:0;background:#fbfcfb}</style>
+</head>
+<body>
+<style>
+  .mo-a11y { --ink:#1d2433; --muted:#4a5468; --brand:#2f5d50; --brand-dark:#234539; --soft:#eef4f1; --line:#d5ded9; --card:#ffffff;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--ink); line-height: 1.6; font-size: 18px; background:#fbfcfb; }
+  .mo-a11y * { box-sizing: border-box; }
+  .mo-a11y .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+  .mo-a11y header { background: var(--brand); color: #fff; padding: 64px 0 56px; }
+  .mo-a11y header p.eyebrow { margin: 0 0 8px; font-size: 16px; letter-spacing: .04em; text-transform: uppercase; color: #e7f1ec; }
+  .mo-a11y h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.15; margin: 0 0 16px; }
+  .mo-a11y header p.lead { font-size: 20px; max-width: 680px; margin: 0 0 28px; color: #f3f8f5; }
+  .mo-a11y .btn { display: inline-block; background: #fff; color: var(--brand-dark); font-weight: 700; padding: 14px 26px;
+    border-radius: 8px; text-decoration: none; border: 2px solid #fff; }
+  .mo-a11y .btn:hover, .mo-a11y .btn:focus { background: var(--soft); outline: 3px solid #ffd166; outline-offset: 2px; }
+  .mo-a11y section { padding: 56px 0; border-bottom: 1px solid var(--line); }
+  .mo-a11y h2 { font-size: 30px; margin: 0 0 18px; color: var(--brand-dark); }
+  .mo-a11y h3 { font-size: 21px; margin: 0 0 8px; }
+  .mo-a11y p { margin: 0 0 14px; color: var(--ink); }
+  .mo-a11y .muted { color: var(--muted); }
+  .mo-a11y .grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .mo-a11y .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
+  .mo-a11y .price { font-size: 32px; font-weight: 800; color: var(--brand-dark); margin: 4px 0 10px; }
+  .mo-a11y ol.steps { padding-left: 22px; margin: 0; }
+  .mo-a11y ol.steps li { margin-bottom: 12px; }
+  .mo-a11y .sample { background: var(--soft); border-left: 6px solid var(--brand); border-radius: 8px; padding: 20px 24px; }
+  .mo-a11y .swatch { display: inline-block; width: 18px; height: 18px; border-radius: 4px; vertical-align: -3px; margin: 0 4px; border: 1px solid #666; }
+  .mo-a11y code { background: #fff; border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; font-size: 16px; }
+  .mo-a11y footer { padding: 36px 0 48px; font-size: 15px; color: var(--muted); }
+  .mo-a11y a { color: var(--brand-dark); }
+</style>
+
+<div class="mo-a11y" lang="en">
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">Mo Christensen · Syracuse, Utah</p>
+      <h1>Make sure every customer can read and use your website.</h1>
+      <p class="lead">I check small-business websites for the accessibility problems that quietly cost you customers, like faint buttons, unlabeled forms, and phone numbers people can't read, and give you the exact fixes in plain English.</p>
+      <a class="btn" href="mailto:mogenechristensen@gmail.com?subject=Free%20homepage%20check">Ask for a free homepage check</a>
+    </div>
+  </header>
+
+  <main>
+    <section aria-labelledby="why">
+      <div class="wrap">
+        <h2 id="why">Why it matters</h2>
+        <div class="grid">
+          <div class="card"><h3>1 in 4 adults</h3><p>About 1 in 4 US adults has a disability, according to the CDC. Many of them are deciding where to book right now.</p></div>
+          <div class="card"><h3>Everyone over 40</h3><p>Low-contrast text is hard for older eyes and for anyone reading a phone outside. If they can't read your "Book now" button, some of them just don't book.</p></div>
+          <div class="card"><h3>Fewer complaints</h3><p>These are the same issues that show up most in website accessibility complaints. Fixing them now is simpler than dealing with one later.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="how">
+      <div class="wrap">
+        <h2 id="how">How it works</h2>
+        <ol class="steps">
+          <li><strong>I check your homepage.</strong> I use the same automated tools accessibility auditors use, plus a manual review of what they flag.</li>
+          <li><strong>You get your homepage fixes free.</strong> Every issue is explained in plain English, with the exact change to make: color codes, labels, and copy-paste code.</li>
+          <li><strong>You decide what's next.</strong> Hand the fixes to your web person, get the rest of your site covered, or have me make the changes for you.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section aria-labelledby="sample">
+      <div class="wrap">
+        <h2 id="sample">What a fix looks like</h2>
+        <div class="sample">
+          <p><strong>Hard-to-read text (color contrast).</strong> Your brand purple
+            <span class="swatch" style="background:#947cb4" role="img" aria-label="original light purple"></span><code>#947cb4</code>
+            is used behind white text in 16 spots, at a contrast of 3.1 to 1 (the standard minimum is 4.5).</p>
+          <p><strong>Fix:</strong> change it to
+            <span class="swatch" style="background:#776491" role="img" aria-label="slightly darker purple"></span><code>#776491</code>
+            in your theme's color settings. One change fixes all 16 spots and keeps your look.</p>
+          <p class="muted">From a real homepage check of a dental practice, shared without the business name.</p>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="options">
+      <div class="wrap">
+        <h2 id="options">Options</h2>
+        <div class="grid">
+          <div class="card"><h3>Homepage check</h3><p class="price">Free</p><p>Every issue on your homepage, with the exact fix for each.</p></div>
+          <div class="card"><h3>Full Fix Pack</h3><p class="price">$250</p><p>The same for your main pages (contact and booking forms, services, about), plus a re-check after your web person makes the changes.</p></div>
+          <div class="card"><h3>Done for you</h3><p class="price">$450</p><p>I make the changes on your site myself, re-check everything, and send you a dated summary of what was fixed.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="about">
+      <div class="wrap">
+        <h2 id="about">About me</h2>
+        <p>I'm Mo Christensen. I live in Syracuse, Utah, and I've spent years building websites, funnels and automations for small businesses and coaches. I started doing accessibility checks because the same small problems kept showing up on otherwise great sites, and they're usually quick to fix once someone points them out.</p>
+        <p>I'm happy to meet for coffee if you're in Davis or Weber County.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="contact">
+      <div class="wrap">
+        <h2 id="contact">Get your free homepage check</h2>
+        <p>Email me your website address and I'll send your homepage fixes, usually within a day or two.</p>
+        <p><a class="btn" style="background:var(--brand);color:#fff;border-color:var(--brand)" href="mailto:mogenechristensen@gmail.com?subject=Free%20homepage%20check">Email mogenechristensen@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Mo Christensen · Website accessibility fixes · Syracuse, Utah</p>
+      <p>Automated checks catch many but not all accessibility issues. This is practical guidance to make your site easier to use. It isn't legal advice or a certification of compliance.</p>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>
